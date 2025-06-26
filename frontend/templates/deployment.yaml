@@ -25,5 +25,5 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: prashanth3010/frontend:{{ .Values.deployment.version }}
+        image: prashanth3010/frontend:{{ .Values.deployment.imageVersion }}
         
